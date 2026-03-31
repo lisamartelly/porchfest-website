@@ -12,9 +12,12 @@ const ForBands = () => {
           </h1>
               
         </div> */}
-      {/* <div className="for-bands-banner">
-          <h2 >Applications to play in 2024 Porchfest will be open April 1 - June 1. We can't wait to hear from you!</h2>
-        </div> */}
+      <div className="for-bands-banner">
+        <h2>
+          Applications to play in 2026 Porchfest will be open April 1 - June 1.
+          We can't wait to hear from you!
+        </h2>
+      </div>
       <div className="padded-container">
         <div className="half-flex">
           <div className="neon-box">
@@ -45,10 +48,10 @@ const ForBands = () => {
                 <a
                   className="ctaPrimary"
                   rel="noreferrer"
-                  // target="_blank"
-                  href="#"
+                  target="_blank"
+                  href="https://porchfestpal.com/bandapplication/uptown-porchfest"
                 >
-                  Apply to Play - Available April 1
+                  Apply to Play - Available til May 31
                 </a>
               </div>
 
@@ -110,11 +113,11 @@ const ForBands = () => {
                 <ul className="x">
                   <li>
                     Apply to play via the form on this website between April 1
-                    and June 1
+                    and May 31
                   </li>
                   <li>
                     Watch for an email containing your application decision
-                    around June 15
+                    around/by June 15
                   </li>
                   <li>
                     If selected as a Porchfest band, you will be assigned and
@@ -159,7 +162,7 @@ const ForBands = () => {
                     interest in the event and we want to be fair to everyone
                   </li>
                   <li>
-                    Since applications are open until June 1, you will
+                    Since applications are open until May 31, you will
                     definitely not hear back anytime before then, even if you
                     were the first person to apply
                   </li>
@@ -214,10 +217,10 @@ const ForBands = () => {
                   <a
                     className="ctaPrimary"
                     rel="noreferrer"
-                    // target="_blank"
-                    href="#"
+                    target="_blank"
+                    href="https://porchfestpal.com/bandapplication/uptown-porchfest"
                   >
-                    Apply to Play - Available April 1
+                    Apply to Play - Available til May 31
                   </a>
                 </div>
 

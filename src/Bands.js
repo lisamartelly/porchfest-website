@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import data from "./data/bands.json";
 import "./Bands.css";
 // import backupImg from './img/3_fiddlers_in_silhouette.svg.png';
@@ -9,13 +10,18 @@ const BandTile = ({ bandInfo }) => {
     : "";
   return (
     <div className="band-tile">
-      <a href={bandInfo.img_url}>
+      {bandInfo.img_id && (
         <img
+          loading="lazy"
           className="tile-image"
           style={{ objectPosition: bandInfo.object_position_value }}
-          src={bandInfo.img_url}
+          src={
+            "https://drive.google.com/thumbnail?id=" +
+            bandInfo.img_id +
+            "&sz=s800"
+          }
         />
-      </a>
+      )}
       <div className="band-info-text">
         <h2 className="band-name">{bandInfo.band_name}</h2>
         <h3 className="band-genre">

@@ -42,7 +42,7 @@ function App() {
                   <Link id="logo-link" to="/">
                     <div id="logo-div">
                       <p className="script">Uptown Porchfest</p>
-                      <p className="date">Aug 16, 2025</p>
+                      <p className="date">Aug 15, 2026</p>
                     </div>
                   </Link>
                   <div id="ig-div">
@@ -84,7 +84,7 @@ function App() {
                   </li> */}
                   <li>
                     <Link onClick={toggleNav} to="/map">
-                      <div>2024 Map</div>
+                      <div>2025 Map</div>
                     </Link>
                   </li>
                   {/* <li>

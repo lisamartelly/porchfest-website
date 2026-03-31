@@ -1,15 +1,7 @@
 import img1 from "./img/Kinfolk-7.jpg";
 import img3 from "./img/replacements2.jpg";
 import img4 from "./img/bing-porchfest.png";
-import wrecktangleLogo from "./img/WTP-LOGO.png";
-import ctsLogo from "./img/cts-logo-new.png";
-// import redCowLogo from "./img/redcowlogo.png"
-import ugPrintingLogo from "./img/Underground_Printing_Logo.png";
-// import upDownLogo from "./img/updownlogo.png"
-import upsLogo from "./img/ups-store-logo.jpg";
-import metLogo from "./img/metcolor.png";
-// import fireAndNiceLogo from "./img/70710logo.png"
-import mapPdf from "./resources/2024-porchfest-mapv2.pdf";
+import mapPdf from "./resources/2025-porchfest-map-v2.pdf";
 
 import "./HomePage.css";
 
@@ -29,6 +21,52 @@ const HomePage = () => {
         <div className="page-content">
           <div className="padded-container">
             {/* <div className="homepage-info-banner">
+              <h2>It's Almost Time To Porchfest!</h2>
+              <p>Here's a few things to help you get ready for the day</p>
+              <ul className="x">
+                <li>
+                  Find your favorite poncho! If it's drizzing, the show goes on.
+                  If it's raining hard, check back here for updates on a rain
+                  plan Saturday AM
+                </li>
+                <li>
+                  Check out the <a href="/map">event map</a> or{" "}
+                  <a href={mapPdf} target="_blank" rel="noreferrer">
+                    download a PDF copy
+                  </a>{" "}
+                  (including a chronological schedule after popular demand!)
+                </li>
+                <li>
+                  Get some cash or get excited to{" "}
+                  <a href="/tipthebands">tip the bands</a> on venmo
+                </li>
+                <li>
+                  Listen to our{" "}
+                  <a
+                    href="https://open.spotify.com/playlist/1d7PO3pVyy9uOMb2wCyz8M?si=507f6042e2e94ed6"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Spotify playlist
+                  </a>{" "}
+                  of this year's bands
+                </li>
+                <li>
+                  Come up with your transportation plan! DONT try to park in the
+                  neighborhood, there's no room!{" "}
+                  <a
+                    href="https://www.instagram.com/p/Cv8sBJ9ux6D/?img_index=1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Get inspiration here{" "}
+                  </a>
+                  for alternate modes.
+                </li>
+              </ul>
+            </div> */}
+
+            {/* <div className="homepage-info-banner">
               <h2>Thank you!</h2>
               <p>
                 Thank you for all of the hard work and talents shared by all of
@@ -42,49 +80,48 @@ const HomePage = () => {
                 <a href="https://forms.gle/DMwUiVMznVYFRASF6">at this link</a>
               </p>
             </div> */}
+
             {/* <div className="homepage-info-banner">
               <h2>It's Time to Porchfest!</h2>
               <p>
-                We have <b>68</b> amazing bands across 33 stages all excited to
+                We have <b>87</b> amazing bands across 35 porches all excited to
                 put on a great show for the neighborhood. Here are some last
                 minute reminders to make sure everyone has a great day:
               </p>
               <ul className="x">
                 <li>
+                  <b>
+                    We are not scared of lingering rain and the show will go on!
+                  </b>
+                </li>
+                <li>
                   This event is run entirely by volunteers, including the bands!
-                  Show your appreciation and <b>tip them generously</b>
+                  Show your appreciation and{" "}
+                  <b>
+                    <a href="/tipthebands">tip them generously</a>
+                  </b>
+                </li>
+                <li>
+                  Check out the <a href="/map">event map</a> and download a copy
+                  before you arrive
                 </li>
                 <li>
                   There will be musical activities <b>for kids of all ages</b>{" "}
-                  in Mueller Park from 2:30-4:30
+                  in Mueller Park from 4:00-5:00
                 </li>
                 <li>
-                  Trying to park in Uptown is a bad idea! So we got you all{" "}
-                  <b>
-                    <a
-                      href="https://www.surveymonkey.com/r/2024UptownPorchfestAug17"
-                      target="_blank"
-                    >
-                      free bus passes
-                    </a>
-                  </b>{" "}
-                  from our friends at Metro Transit! Kick back and enjoy the bus
-                  ride.
+                  Trying to park in Uptown is a bad idea! Take the bus,
+                  rideshare, or bike!
                 </li>
                 <li>
                   There will be <b>food and drink vendors</b> all day in Mueller
-                  Park starting at 12:00! But if you want alcohol, we are not
-                  selling it, so don't expect to buy it from us...
+                  Park and at Twin Town Fitness starting at 12:00! But if you
+                  want alcohol, we are not selling it
                 </li>
                 <li>
                   <b>Be respectful</b> of the neighborhood and don't pee on
-                  anyone's lawn
-                </li>
-                <li>
-                  <b>
-                    We are not scared of passing drizzle and the show will go
-                    on!
-                  </b>
+                  anyone's lawn. There are portapotties and park bathrooms for
+                  that! Check the map!
                 </li>
               </ul>
 
@@ -125,22 +162,22 @@ const HomePage = () => {
                     <h2>When?</h2>
                   </div>
                   <div className="gold-right">
-                    <h3 style={{ marginBottom: 0 }}>August 16, 2025</h3>
-                    <h3 style={{ marginTop: 0 }}>1pm - 5pm</h3>
+                    <h3 style={{ marginBottom: 0 }}>August 15, 2026</h3>
+                    <h3 style={{ marginTop: 0 }}>1pm - 6pm</h3>
                   </div>
                 </div>
 
-                {/* <div className="golden-flex">
+                <div className="golden-flex">
                   <div className="gold-left">
                     <h2>How?</h2>
                   </div>
                   <div className="gold-right">
                     <h3 style={{ marginBottom: 0 }}>
-                      Porch signup: Feb 1 - July 1
+                      Porch signup: March 1 - July 1
                     </h3>
                     <h3 style={{ marginTop: 0 }}>Band apps: Apr 1 - June 1</h3>
                   </div>
-                </div> */}
+                </div>
 
                 <div className="golden-flex">
                   <div className="gold-left">
@@ -153,7 +190,7 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="centered">
-                  {/* <div className="" style={{ marginRight: 20 }}>
+                  <div className="" style={{ marginRight: 20 }}>
                     <a href="/for-bands" className="ctaPrimary">
                       Band Signup
                     </a>
@@ -163,7 +200,7 @@ const HomePage = () => {
                     <a href="/for-hosts" className="ctaPrimary">
                       Porch Signup
                     </a>
-                  </div> */}
+                  </div>
                   {/* <div>
                     <a href={mapPdf} className="ctaPrimary" target="_blank">
                       Download the event map
@@ -203,14 +240,14 @@ const HomePage = () => {
               </p>
               <div className="centered">
                 <div className="" style={{ marginRight: 20 }}>
-                  <a href="/bands" className="ctaPrimary">
-                    Who's Playing
+                  <a href="/for-bands" className="ctaPrimary">
+                    Band Signup
                   </a>
                 </div>
 
                 <div>
-                  <a href="/faq" className="ctaPrimary">
-                    FAQ
+                  <a href="/for-hosts" className="ctaPrimary">
+                    Porch Signup
                   </a>
                 </div>
               </div>
